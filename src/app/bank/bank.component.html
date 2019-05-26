@@ -1,0 +1,19 @@
+<div class="trueBank">
+
+  <p class="welcome">Welcome {{account.customerName}}
+  </p>
+
+
+  <label for="enterAmount">Enter amount to deposit or withdraw
+    <input class="enterAmount" type="text"[(ngModel)]="amount" placeholder="Amount here" >
+  </label>
+
+
+  <button class="depositButton" (click)="deposit(account, amount)">Deposit</button>
+  <button class="withdrawButton" (click)="Withdraw(account, amount)">Withdraw</button>
+
+  <p class="accountBalance">Your current account balance is:  {{account.balance}} SEK
+  </p>
+
+
+</div>

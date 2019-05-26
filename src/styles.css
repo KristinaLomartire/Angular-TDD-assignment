@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: lightblue;
+  margin-top: 180px;
+}
+
+h1{
+  font-family:  sans-serif;
+  font-style: italic;
+}
+
+.trueBank{
+  width: 600px;
+  margin: auto;
+}
+
+.enterAmount{
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 230px;
+  border-style: none;
+
+}
+
+label{
+  font-size: 14px;
+}
+
+button{
+  border-style: none;
+  padding: 3px;
+  margin: 10px 10px ;
+  width: 70px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+.depositButton:hover{
+  background-color: #ACD895;
+}
+
+.withdrawButton:hover{
+  background-color: #E46147;
+}
+
+.welcome{
+  font-size: 25px;
+}
